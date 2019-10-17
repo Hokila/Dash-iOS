@@ -1100,7 +1100,7 @@
 					};
 					43FD2EE119BB8D87007E594D = {
 						DevelopmentTeam = CJ9ARSV7HF;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1756,8 +1756,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bogdan Popescu (JB3QRP5DC5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJ9ARSV7HF;
 				ENABLE_BITCODE = NO;
@@ -1781,7 +1782,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hokila.dash.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = DashAppstore;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_STYLE = debugging;
@@ -1797,8 +1798,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bogdan Popescu (JB3QRP5DC5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJ9ARSV7HF;
@@ -1827,7 +1829,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hokila.dash.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = DashAppstore;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_STYLE = debugging;
