@@ -1095,8 +1095,8 @@
 				ORGANIZATIONNAME = Kapeli;
 				TargetAttributes = {
 					43AB65311ED19D2F00A6EC18 = {
-						DevelopmentTeam = JP58VMK957;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = CJ9ARSV7HF;
+						ProvisioningStyle = Manual;
 					};
 					43FD2EE119BB8D87007E594D = {
 						DevelopmentTeam = CJ9ARSV7HF;
@@ -1546,10 +1546,10 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Bogdan Popescu (JP58VMK957)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CJ9ARSV7HF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1576,10 +1576,10 @@
 					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kapeli.dash.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hokila.dash.ios;
 				PRODUCT_NAME = Dash;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = DashAppstore;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_STYLE = debugging;
@@ -1598,10 +1598,11 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CJ9ARSV7HF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1629,10 +1630,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kapeli.dash.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hokila.dash.ios;
 				PRODUCT_NAME = Dash;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = DashAppstore;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_STYLE = debugging;
